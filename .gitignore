@@ -2,8 +2,8 @@
 *
 
 # Exceto a pasta Atividade em grupo
-!"Atividade em grupo"/
-!"Atividade em grupo"/**
+!Atividade em grupo/
+!Atividade em grupo/**
 
 # Exceto o próprio .gitignore
 !.gitignore
