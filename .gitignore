@@ -7,3 +7,7 @@
 
 # Exceto o próprio .gitignore
 !.gitignore
+
+# Index e CSS na raiz (GitHub Pages)
+!index.html
+!index.css
