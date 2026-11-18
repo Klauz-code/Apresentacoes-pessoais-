@@ -1,0 +1,107 @@
+/* Estilo da página do Lucca: verde do Palmeiras, com branco */
+
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+  background-color: #e8f5e9;
+  color: #1b1b1b;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0 0 40px;
+}
+
+header {
+  background-color: #006437;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  font-family: 'Bebas Neue', Arial, sans-serif;
+  font-size: 3rem;
+  letter-spacing: 3px;
+  margin: 8px 0;
+  color: #ffffff;
+}
+
+header a {
+  color: #c8e6c9;
+  font-weight: bold;
+}
+
+header hr {
+  border: 2px solid #ffffff;
+  width: 60%;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+h2 {
+  font-family: 'Bebas Neue', Arial, sans-serif;
+  font-size: 2.2rem;
+  letter-spacing: 2px;
+  color: #006437;
+  border-bottom: 4px solid #006437;
+  padding-bottom: 4px;
+  margin-top: 40px;
+}
+
+h3 {
+  color: #004d2c;
+  margin-top: 28px;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+hr {
+  border: 0;
+  height: 2px;
+  background-color: #006437;
+}
+
+/* Fotos e escudos */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border: 4px solid #006437;
+  border-radius: 12px;
+  margin: 12px 0;
+}
+
+main a {
+  color: #006437;
+  font-weight: bold;
+}
+
+main a:hover {
+  color: #00a152;
+}
+
+footer {
+  background-color: #006437;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+footer hr {
+  background-color: #ffffff;
+}
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2.2rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+}
